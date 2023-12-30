@@ -2,6 +2,9 @@
 
 • Use MVVM architecture pattern.
 • get data from APIs provided and cache data retrieved in a secure room db.
+by using    and can change pass key from gradle
+implementation ("net.zetetic:android-database-sqlcipher:4.5.3")
+
 • In case of no internet connection, the app shows the cached data and works offline.
 • Prevent users from taking screenshots or recording the screen while opening the app.
 • Prevent MITM cyberattacks.
